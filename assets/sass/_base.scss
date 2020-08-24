@@ -1,0 +1,34 @@
+// Primary Color : #5CA720;
+// Dark Color: #161616;
+// Gray Color: #a5a1a1;
+// Gray Color light: #f9f9f9;
+
+:root {
+  --color-primary: #5ca720;
+  --color-dark: #161616;
+  --color-gray-medium: #a5a1a1;
+  --color-gray-light: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-dark);
+}
